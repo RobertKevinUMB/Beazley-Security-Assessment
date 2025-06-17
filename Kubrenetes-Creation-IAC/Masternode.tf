@@ -13,7 +13,7 @@ resource "aws_instance" "master" {
   instance_type          = "t3.medium"
   subnet_id              = aws_subnet.k8s_subnets[0].id
   vpc_security_group_ids = [aws_security_group.k8s_sg.id]
-  user_data              = base64encode(file("Master.sh"))
+  key_name               = "key-pair"
 
   tags = {
     Name = "k8s-master"
