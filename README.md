@@ -23,7 +23,7 @@ License
 
 Task 1: Kubernetes Cluster Infrastructure
 Goal:
-Provision a 3-tier Kubernetes cluster across 3 availability zones, ensuring that 3 instances/containers are always up, using Infrastructure as Code.
+Provision a 3-tier Kubernetes cluster across 3 availability zones, ensuring that 3 instances are always up, using Infrastructure as Code.
 
 Approach:
 
